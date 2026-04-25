@@ -3,9 +3,10 @@
     "k": 4,
     "sharpness": 1,
     "n1": 50,
-    "n2": 6000
+    "n2": 4000,
+    "sample_size": 10000
   },
-  "mean_validation_rmse": 22.464092937485105,
+  "mean_validation_rmse": 18.371265944865446,
   "grid": {
     "k": [
       4,
@@ -38,6 +39,7 @@
     "k": 8,
     "sharpness": 1,
     "n1": 200,
-    "n2": 2000
+    "n2": 2000,
+    "sample_size": 10000
   }
 }

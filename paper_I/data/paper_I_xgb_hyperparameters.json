@@ -6,12 +6,12 @@
     "colsample_bytree": 0.8,
     "alpha": 0.1,
     "lambda": 1.0,
-    "gamma": 0.1,
+    "gamma": 0.01,
     "learning_rate": 0.08,
     "max_depth": 3,
     "n_estimators": 500
   },
-  "mean_cv_rmse": 8.717315500378387,
+  "validation_rmse": 8.902892069147867,
   "grid": {
     "subsample": [
       0.7,
@@ -57,14 +57,13 @@
   "published_params": {
     "objective": "reg:squarederror",
     "random_state": 42,
-    "subsample": 0.8,
-    "colsample_bytree": 0.5,
+    "subsample": 0.9,
+    "colsample_bytree": 0.8,
     "alpha": 0.1,
-    "lambda": 0.9,
-    "gamma": 0.01,
+    "lambda": 1.0,
+    "gamma": 0.1,
     "learning_rate": 0.08,
-    "max_depth": 4,
+    "max_depth": 3,
     "n_estimators": 500
-  },
-  "grid_search_n_jobs": 15
+  }
 }
